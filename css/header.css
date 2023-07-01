@@ -1,10 +1,10 @@
 .header {
-    align-items     : center;
-    flex-wrap       : wrap;
-    grid-area       : header;
-    justify-content : space-between;
-    padding         : 10px 1%;
-    width           : 100%;
+    align-items    : center;
+    flex-wrap      : wrap;
+    grid-area      : header;
+    justify-content: space-between;
+    padding        : 10px 1%;
+    width          : 100%;
 }
 
 .header-left {
@@ -55,7 +55,7 @@
     border          : 1px solid transparent;
     background-color: transparent;
     border-radius   : 40px 0 0 40px;
-    color           : var(--white);
+    color           : var(--theme-white);
     font-family     : 'Roboto Mono', monospace;
     font-weight     : 500;
     font-size       : 1rem;
@@ -80,7 +80,7 @@
 }
 
 .header-search_btn a {
-    color      : var(--white);
+    color      : var(--theme-white);
     line-height: 40px;
 }
 
@@ -89,7 +89,7 @@
 }
 
 .header-search_voz a {
-    color      : var(--white);
+    color      : var(--theme-white);
     font-size  : 1rem;
     line-height: 40px;
 }
@@ -109,7 +109,7 @@
 }
 
 .header-right ul li a {
-    color      : var(--white);
+    color      : var(--theme-white);
     line-height: 40px;
 }
 
