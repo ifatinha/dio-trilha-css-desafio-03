@@ -1,0 +1,40 @@
+body {
+    background-color: var(--theme-color);
+    color           : var(--white);
+    font-family     : 'Roboto', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-round {
+    border-radius: 50%;
+    cursor       : pointer;
+    height       : 42px;
+    text-align   : center;
+    transition   : .3s all ease-in-out;
+    width        : 42px;
+}
+
+.btn-round:hover {
+    background-color: var(--theme-links_hover);
+}
+
+.btn-default {
+    align-items     : center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius   : 18px;
+    font-size       : 0.875rem;
+    font-weight     : 600px;
+    gap             : 10px;
+    justify-content : center;
+    line-height     : 34px;
+    padding         : 0 18px;
+    text-align      : center;
+    transition      : .3s all ease-in-out;
+}
+
+.btn-default:hover {
+    background-color: var(--theme-links_hover);
+}

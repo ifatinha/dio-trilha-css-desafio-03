@@ -1,0 +1,7 @@
+.main-grid {
+    display              : grid;
+    grid-template-columns: minmax(200px, 220px) 1fr 1fr;
+    grid-template-areas  :
+        "header header header"
+        "sidebar main main";
+}

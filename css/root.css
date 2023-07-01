@@ -1,0 +1,23 @@
+/* reset CSS */
+@import "minireset.css";
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&family=Roboto:wght@300;400;500;700&display=swap');
+
+/* colors */
+@import url("colors.css");
+
+/* generics CSS */
+@import url("generics.css");
+
+/* grid */
+@import url("grid.css");
+
+/* header */
+@import url("header.css");
+
+/* aside */
+@import url("aside.css");
+
+/* main */
+@import url("main.css");
