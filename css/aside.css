@@ -1,4 +1,87 @@
 .aside {
-    background-color: darkcyan;
-    grid-area       : sidebar;
+    grid-area : sidebar;
+    max-height: 750px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding   : 12px 12px 120px 12px;
+    position  : fixed;
+    top       : 62px;
+}
+
+.aside-list {
+    border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+    overflow      : hidden;
+    padding-bottom: 8px;
+    width         : 208px;
+}
+
+.aside-list:not(#first-list) {
+    padding-top: 8px;
+}
+
+.aside-list li {
+    color        : var(--theme-white);
+    margin-bottom: 5px;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+    width        : 200px;
+    white-space  : nowrap;
+}
+
+.aside-list li a {
+    align-items  : center;
+    border-radius: 10px;
+    color        : var(--theme-white);
+    display      : flex;
+    font-size    : 0.875rem;
+    font-weight  : 400;
+    gap          : 20px;
+    line-height  : 24px;
+    padding      : 8px 16px;
+    transition   : .3s all ease-in-out;
+}
+
+.aside-list li:first-of-type a#first-link {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.aside-list li:first-of-type a#first-link:hover {
+    background-color: rgba(255, 255, 255, 0.19);
+}
+
+.aside-list li a:not(a#first-link):hover {
+    background-color: rgba(255, 255, 255, 0.09);
+}
+
+.aside-list span {
+    display    : inline-block;
+    font-weight: 400;
+    line-height: 12px;
+    padding    : 6px 12px
+}
+
+.aside-list img {
+    height: 24px;
+    width : 24px;
+}
+
+.aside-links {
+    color      : var(--theme-white);
+    font-size  : 0.75rem;
+    line-height: 1.3rem;
+    padding    : 12px;
+    overflow   : hidden;
+}
+
+.aside-links a {
+    color       : var(--theme-aside_links);
+    font-weight : 500;
+    margin-right: 8px;
+    word-break  : keep-all;
+}
+
+.aside-links p {
+    color      : var(--theme-gray);
+    font-weight: 400;
+    margin-top : 10px;
 }

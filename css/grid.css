@@ -1,7 +1,8 @@
 .main-grid {
     display              : grid;
-    grid-template-columns: minmax(200px, 220px) 1fr 1fr;
+    grid-template-columns: minmax(220px, 240px) 1fr 1fr;
     grid-template-areas  :
         "header header header"
         "sidebar main main";
+    position: relative;
 }

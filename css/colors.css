@@ -1,14 +1,12 @@
 :root {
-    --theme-color            : #000;
-    --theme-links_hover      : #292929;
-    --theme-input_bg         : #121212;
-    --theme-input_color      : #888888;
-    --theme-input_border     : #303030;
-    --theme-btn_gray         : #181818;
-    --theme-input_comment    : #717171;
-    --theme-btn_comment      : #0f0f0f;
-    --theme-blue             : #3ea6ff;
-    --theme-btn_comment-hover: #65b8ff;
-    --gray                   : #aaaaaa;
-    --white                  : #ffffff;
+    --theme-color       : #0f0f0f;
+    --theme-blue        : #3ea6ff;
+    --theme-white       : #f1f1f1;
+    --theme-gray        : #717171;
+    --theme-links_hover : #292929;
+    --theme-input_bg    : #121212;
+    --theme-input_color : #888888;
+    --theme-input_border: #303030;
+    --theme-btn_gray    : #181818;
+    --theme-aside_links : #aaaaaa;
 }
