@@ -88,13 +88,12 @@
     border-radius: 12px;
     margin-bottom: 10px;
     position     : relative;
-    height       : 230px;
+    height       : 200px;
 }
 
 .video-img img {
     border-radius: 8px;
     height       : 100%;
-    object-fit   : contain;
     width        : 100%;
 }
 
