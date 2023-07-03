@@ -62,11 +62,132 @@
     width      : 42px;
 }
 
+/* main content */
+.main-content {
+    padding: 24px 60px;
+    width  : 100%;
+}
+
 /* grid list */
 .list-video {
     color                : var(--theme-white);
     display              : grid;
+    gap                  : 40px 20px;
     grid-template-columns: repeat(3, 1fr);
     padding-top          : 24px;
     width                : 100%;
+}
+
+.video-item {
+    cursor    : pointer;
+    width     : 100%;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1) 0.1s;
+}
+
+.video-img {
+    border-radius: 12px;
+    margin-bottom: 10px;
+    position     : relative;
+    height       : 230px;
+}
+
+.video-img img {
+    border-radius: 8px;
+    height       : 100%;
+    object-fit   : contain;
+    width        : 100%;
+}
+
+.video-time {
+    background-color: var(--theme-color);
+    border-radius   : 4px;
+    color           : var(--theme-white);
+    bottom          : 4px;
+    font-size       : 0.75rem;
+    font-weight     : 500;
+    position        : absolute;
+    padding         : 2px 4px;
+    right           : 4px;
+}
+
+.video-controls {
+    gap       : 2px;
+    position  : absolute;
+    top       : 8px;
+    right     : 8px;
+    visibility: hidden;
+}
+
+.btn-control {
+    align-items     : center;
+    background-color: rgba(0, 0, 0, .8);
+    border-radius   : 2px;
+    height          : 32px;
+    justify-content : center;
+    padding         : 0 4px;
+    text-align      : center;
+    width           : 32px;
+}
+
+.video-canal {
+    column-gap: 15px;
+}
+
+.canal-img {
+    border-radius: 50%;
+    height       : 36px;
+    width        : 35px;
+}
+
+.canal-img img {
+    border-radius: 50%;
+    height       : 100%;
+    object-fit   : cover;
+    width        : 100%;
+}
+
+.canal-info {
+    flex         : 1 1 300px;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+.canal-info h2 {
+    font-size     : 0.875rem;
+    font-weight   : 500;
+    line-height   : 22px;
+    overflow      : hidden;
+    max-height    : 44px;
+    text-transform: uppercase;
+    text-overflow : ellipsis;
+    white-space   : normal;
+    width         : 300px;
+}
+
+.canal-info a,
+.canal-info p {
+    color    : #aaa;
+    display  : block;
+    font-size: 0.875rem;
+}
+
+.canal-info a {
+    margin    : 5px 0;
+    transition: .3s all ease-in-out;
+}
+
+.canal-info a:hover {
+    color: var(--theme-white);
+}
+
+.menu-lateral {
+    flex          : 1;
+    height        : 20px;
+    vertical-align: middle;
+    visibility    : hidden;
+}
+
+.video-item:hover .video-controls,
+.video-item:hover .menu-lateral {
+    visibility: visible;
 }
