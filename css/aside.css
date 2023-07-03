@@ -3,7 +3,7 @@
     max-height: 750px;
     overflow-x: hidden;
     overflow-y: scroll;
-    padding   : 12px 12px 120px 12px;
+    padding   : 12px 12px 80px 12px;
     position  : fixed;
     top       : 62px;
 }
